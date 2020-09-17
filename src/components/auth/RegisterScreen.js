@@ -14,10 +14,10 @@ export const RegisterScreen = () => {
     //console.log(msgError);
 
     const [ formValues, handleInputChange] = useForm({
-        name: 'Benazir',
-        email: 'bena@gmail.com',
-        password: '123456',
-        password2: '123456',
+        name: '',
+        email: '',
+        password: '',
+        password2: '',
     })
 
     const { name, email, password, password2 } = formValues;
@@ -73,7 +73,7 @@ export const RegisterScreen = () => {
 
                 <input
                     type="text"
-                    placeholder='Name'
+                    placeholder='Nombre'
                     autoComplete='off'
                     name="name"
                     className='auth_input'
@@ -83,7 +83,7 @@ export const RegisterScreen = () => {
 
                 <input
                     type="text"
-                    placeholder='Email'
+                    placeholder='Correo'
                     autoComplete='off'
                     name="email"
                     className='auth_input'
@@ -93,7 +93,7 @@ export const RegisterScreen = () => {
 
                 <input
                     type="password"
-                    placeholder='Password'
+                    placeholder='Contraseña'
                     name="password"
                     className='auth_input'
                     value={password}
@@ -102,7 +102,7 @@ export const RegisterScreen = () => {
 
                 <input
                     type="password"
-                    placeholder='Confirm password'
+                    placeholder='Confirmar contraseña'
                     name="passaword2"
                     className='auth_input'
                     value={password2}
