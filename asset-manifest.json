@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-diario-app/static/css/main.e6ce90ce.chunk.css",
-    "main.js": "/react-diario-app/static/js/main.8eadbac3.chunk.js",
-    "main.js.map": "/react-diario-app/static/js/main.8eadbac3.chunk.js.map",
+    "main.js": "/react-diario-app/static/js/main.0e1c94d1.chunk.js",
+    "main.js.map": "/react-diario-app/static/js/main.0e1c94d1.chunk.js.map",
     "runtime-main.js": "/react-diario-app/static/js/runtime-main.d2e4e8ca.js",
     "runtime-main.js.map": "/react-diario-app/static/js/runtime-main.d2e4e8ca.js.map",
     "static/js/2.925fb7ae.chunk.js": "/react-diario-app/static/js/2.925fb7ae.chunk.js",
     "static/js/2.925fb7ae.chunk.js.map": "/react-diario-app/static/js/2.925fb7ae.chunk.js.map",
     "index.html": "/react-diario-app/index.html",
-    "precache-manifest.4b3fd12e752913d8da22208a3905a7cb.js": "/react-diario-app/precache-manifest.4b3fd12e752913d8da22208a3905a7cb.js",
+    "precache-manifest.58b1b574ea7d8a5d7c5047815dde1efd.js": "/react-diario-app/precache-manifest.58b1b574ea7d8a5d7c5047815dde1efd.js",
     "service-worker.js": "/react-diario-app/service-worker.js",
     "static/css/main.e6ce90ce.chunk.css.map": "/react-diario-app/static/css/main.e6ce90ce.chunk.css.map",
     "static/js/2.925fb7ae.chunk.js.LICENSE.txt": "/react-diario-app/static/js/2.925fb7ae.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d2e4e8ca.js",
     "static/js/2.925fb7ae.chunk.js",
     "static/css/main.e6ce90ce.chunk.css",
-    "static/js/main.8eadbac3.chunk.js"
+    "static/js/main.0e1c94d1.chunk.js"
   ]
 }

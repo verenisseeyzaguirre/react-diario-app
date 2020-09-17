@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc9ab2195e63ae3109373b1ec345c8d8",
+    "revision": "19f4a117d2c99df2dd0053641d2d45a0",
     "url": "/react-diario-app/index.html"
   },
   {
-    "revision": "2a1dd3f65e50d905c506",
+    "revision": "4fba344f00a0db3fb3e4",
     "url": "/react-diario-app/static/css/main.e6ce90ce.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-diario-app/static/js/2.925fb7ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2a1dd3f65e50d905c506",
-    "url": "/react-diario-app/static/js/main.8eadbac3.chunk.js"
+    "revision": "4fba344f00a0db3fb3e4",
+    "url": "/react-diario-app/static/js/main.0e1c94d1.chunk.js"
   },
   {
     "revision": "1db3df0a91fd085af9e2",
