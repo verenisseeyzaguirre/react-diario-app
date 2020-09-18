@@ -1,6 +1,6 @@
 import React from 'react';
 
-import validator from 'validator';
+//import validator from 'validator';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { useForm } from '../hooks/useForm';
@@ -26,30 +26,36 @@ export const LoginScreen = () => {
 
         //dispatch( login(12345, 'Clau'));
         dispatch( startLoginEmailPassword(email, password));
+
+        // if(isFormValid() ) {
+        //     //console.log('valido');
+        //     dispatch( startLoginEmailPassword(email, password));
+        // }
         
     }
 
     const handleGoogleLogin = () => {
 
-        if(isFormValid() ) {
-            console.log('valido');
-            dispatch( startGoogleLogin() );
-        }
+        dispatch( startGoogleLogin() );
+        // if(isFormValid() ) {
+        //     console.log('valido');
+        //     dispatch( startGoogleLogin() );
+        // }
 
     }
 
-    const isFormValid = () => {
+    // const isFormValid = () => {
 
-        if( !validator.isEmail(email) ) {
-            console.log('email no es valido');
-            return false;
-        } else if( password.length <5 ) {
-            console.log('password debe tener al menos 6 caracter');
-            return false;
-        }
+    //     if( !validator.isEmail(email) ) {
+    //         console.log('email no es valido');
+    //         return false;
+    //     } else if( password.length <5 ) {
+    //         console.log('password debe tener al menos 6 caracter');
+    //         return false;
+    //     }
 
-        return true;
-    }
+    //     return true;
+    // }
 
     return (
         <>

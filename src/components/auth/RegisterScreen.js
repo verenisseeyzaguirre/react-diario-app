@@ -103,7 +103,7 @@ export const RegisterScreen = () => {
                 <input
                     type="password"
                     placeholder='Confirmar contraseña'
-                    name="passaword2"
+                    name="password2"
                     className='auth_input'
                     value={password2}
                     onChange={handleInputChange}

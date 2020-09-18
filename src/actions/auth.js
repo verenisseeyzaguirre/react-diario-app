@@ -51,6 +51,7 @@ export const startRegisterWithEmailPasswordName = ( email, password, name ) => {
 
 export const startGoogleLogin = () => {
     return (dispatch) => {
+        console.log('hola dis');
         firebase.auth().signInWithPopup( googleAuthProvider )
             .then( ({user}) => {
                     dispatch(
